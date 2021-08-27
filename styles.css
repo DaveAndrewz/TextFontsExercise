@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+html {
+    font-family: 'Orbitron', sans-serif;
+    background: url(Images/starTrek.jpg);
+    color: rgba(255, 255, 255, 0.6);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+span {
+    font-weight: bold;
+}
+h1 {
+    font-size: 50px;
+    letter-spacing: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+#series-movies {
+    font-size: 20px;
+}
+h2 {
+    font-size: 2.5rem;
+}
+li {
+    line-height: 2;
+}
+div.characters {
+    font-size: 18px;
+}
+h4 {
+    letter-spacing: 15px;
+    font-family: 'Press Start 2P', cursive;
+}
+h2,
+h3,
+h4 {
+    text-align: center;
+}
+li {
+    /* 1rem should be 16px as that is the root font size */
+    font-size: 1rem;
+}
+
+/* This is really messing with my OCD, I really want these to be central on the page too. */
+/* p {
+    text-align: center;
+} */
